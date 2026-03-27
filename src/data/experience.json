@@ -1,0 +1,24 @@
+[
+  {
+    "role": "Part-Time Backend Developer",
+    "company": "Cluster Reply",
+    "dates": "Aug 2024 — Present",
+    "description": [
+      "Developed C# customizations to deliver client-requested features, reducing manual effort by 15+ hours per week through automation of key processes.",
+      "Resolved functional and performance bugs in test and production 30% faster than role-level expectations using debugging, logs and SQL.",
+      "Collaborated on 4+ D365/AX projects, focusing on Finance, Supply Chain, and Manufacturing modules, leveraging C# and SQL."
+    ],
+    "technologies": ["C#", "D365/AX", "SQL"]
+  },
+  {
+    "role": "Research Assistant",
+    "company": "Ca' Foscari University of Venice",
+    "dates": "Feb 2024 — Jul 2024",
+    "description": [
+      "Co-authored verifiable ownership of tree-ensemble models by implementing a trigger-set watermark with only a 2% accuracy overhead.",
+      "Enhanced watermark robustness against removal attacks, leading up to 25% reduction in attack success rates.",
+      "Established anti-forgery bounds using Z3 SMT solver; the best counterfeit achieved 14% of the genuine signal and reduced test accuracy by 30–40 percentage points."
+    ],
+    "technologies": ["Python", "scikit-learn", "NumPy", "Pandas", "Matplotlib", "Z3 (SMT)", "Jupyter", "Git"]
+  }
+]

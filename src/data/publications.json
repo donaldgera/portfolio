@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Watermarking Decision Tree Ensembles",
+    "authors": ["Stefano Calzavara", "Lorenzo Cazzaro", "Donald Gera", "Salvatore Orlando"],
+    "venue": "28th International Conference on Extending Database Technology (EDBT 2025)",
+    "year": 2025,
+    "location": "Barcelona, Spain — Mar 25–28, 2025",
+    "description": "A novel approach to verifiable ownership of tree-ensemble models through trigger-set watermarking.",
+    "links": {
+      "pdf": "https://openproceedings.org/2025/conf/edbt/paper-155.pdf",
+      "code": "https://github.com/LorenzoCazzaro/watermarking-decision-tree-ensembles"
+    }
+  }
+]

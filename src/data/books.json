@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "link": "https://www.deeplearningbook.org/",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg"
+  },
+  {
+    "title": "Designing Machine Learning Systems",
+    "author": "Chip Huyen",
+    "link": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
+    "cover": "https://covers.openlibrary.org/b/isbn/9781098107963-L.jpg"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas, Andrew Hunt",
+    "link": "https://pragprog.com/titles/tpp20/",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "link": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+  },
+  {
+    "title": "Hands-On Machine Learning",
+    "author": "Aurélien Géron",
+    "link": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
+    "cover": "https://covers.openlibrary.org/b/isbn/9781098125974-L.jpg"
+  }
+]
