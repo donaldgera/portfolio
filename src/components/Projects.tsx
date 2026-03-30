@@ -28,7 +28,7 @@ export function Projects() {
 
   return (
     <section id="projects">
-      <div className="max-w-[1100px] mx-auto px-8">
+      <div className="max-w-[1000px] mx-auto px-8">
         <FadeIn>
           <SectionHeading title="Projects" subtitle="Selected work from research, university, and side projects." />
         </FadeIn>
@@ -39,7 +39,7 @@ export function Projects() {
               <button
                 key={cat}
                 onClick={() => setActive(cat)}
-                className="text-[clamp(0.95rem,1vw,1.1rem)] font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 cursor-pointer"
+                className="text-[clamp(0.9rem,1vw,1rem)] font-semibold px-4 py-2 rounded-lg transition-all duration-200 cursor-pointer"
                 style={{
                   color: active === cat ? "white" : "var(--color-text-secondary)",
                   backgroundColor: active === cat ? "var(--color-accent)" : "var(--color-surface)",
@@ -126,14 +126,14 @@ export function Projects() {
                 </div>
 
                 <h3
-                  className="text-[clamp(1.1rem,1.5vw,1.3rem)] font-semibold mb-3"
+                  className="text-[clamp(1.05rem,1.3vw,1.2rem)] font-semibold mb-3 flex items-center gap-2"
                   style={{ color: "var(--color-text-primary)" }}
                 >
                   {project.title}
                 </h3>
 
                 <p
-                  className="text-[clamp(1rem,1.2vw,1.15rem)] leading-[1.8] mb-6 flex-1"
+                  className="text-[clamp(0.95rem,1.1vw,1.05rem)] leading-[1.8] mb-6 flex-1"
                   style={{ color: "var(--color-text-secondary)" }}
                 >
                   {project.summary}
@@ -143,7 +143,7 @@ export function Projects() {
                   {project.techStack.map((tech) => (
                     <span
                       key={tech}
-                      className="text-[clamp(0.85rem,1vw,0.95rem)] font-medium px-2.5 py-1 rounded-md"
+                      className="text-[clamp(0.8rem,0.9vw,0.9rem)] font-medium px-2.5 py-1 rounded-md"
                       style={{
                         color: "var(--color-text-tertiary)",
                         backgroundColor: "var(--color-surface-hover)",

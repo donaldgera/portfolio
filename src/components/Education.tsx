@@ -8,7 +8,7 @@ import { GraduationCap } from "lucide-react";
 export function Education() {
   return (
     <section id="education">
-      <div className="max-w-[1100px] mx-auto px-8">
+      <div className="max-w-[1000px] mx-auto px-8">
         <FadeIn>
           <SectionHeading title="Education" />
         </FadeIn>
@@ -17,7 +17,7 @@ export function Education() {
           {education.map((edu, i) => (
             <FadeInChild key={i}>
               <div
-                className="relative pl-8 border-l-[3px] transition-colors group"
+                className="relative pl-6 sm:pl-10 -ml-6 sm:-ml-10 border-l-[3px] transition-colors group"
                 style={{ borderColor: "var(--color-border)" }}
               >
                 {/* Timeline dot */}
@@ -31,13 +31,13 @@ export function Education() {
 
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-2">
                   <h3
-                    className="text-[clamp(1.2rem,1.8vw,1.5rem)] font-semibold"
+                    className="text-[clamp(1.1rem,1.4vw,1.25rem)] font-semibold"
                     style={{ color: "var(--color-text-primary)" }}
                   >
                     {edu.degree}
                   </h3>
                   <span
-                    className="text-[clamp(0.95rem,1vw,1.1rem)] font-medium shrink-0"
+                    className="text-[clamp(0.85rem,1vw,0.95rem)] font-medium shrink-0"
                     style={{ color: "var(--color-text-tertiary)" }}
                   >
                     {edu.dates}
@@ -45,7 +45,7 @@ export function Education() {
                 </div>
 
                 <p
-                  className="text-[clamp(1.05rem,1.4vw,1.25rem)] font-medium mb-3 flex items-center gap-2"
+                  className="text-[clamp(0.95rem,1.2vw,1.1rem)] font-medium mb-3 flex items-center gap-2"
                   style={{ color: "var(--color-accent)" }}
                 >
                   <GraduationCap size={18} />
@@ -54,7 +54,7 @@ export function Education() {
 
                 {edu.description && (
                   <p
-                    className="text-[clamp(1rem,1.2vw,1.15rem)] leading-[1.8] mb-5 max-w-[850px]"
+                    className="text-[clamp(0.95rem,1.1vw,1.05rem)] leading-[1.8] mb-5 max-w-[850px]"
                     style={{ color: "var(--color-text-secondary)" }}
                   >
                     {edu.description}

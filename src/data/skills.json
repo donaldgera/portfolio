@@ -1,18 +1,23 @@
 [
   {
     "group": "Languages",
-    "items": ["Python", "C#", "JavaScript", "TypeScript", "SQL", "Java", "C++"]
-  },
-  {
-    "group": "ML / AI",
-    "items": ["PyTorch", "scikit-learn", "OpenCV", "NumPy", "Pandas", "Matplotlib", "Jupyter"]
-  },
-  {
-    "group": "Frameworks & Tools",
-    "items": ["Flask", "SQLAlchemy", "D365/AX", "Git", "Z3 (SMT)"]
+    "items": [
+      "Python",
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "Java",
+      "C++"
+    ]
   },
   {
     "group": "Areas of Interest",
-    "items": ["Computer Vision", "Deep Learning", "NLP", "Machine Learning", "VQA", "Scene Graphs"]
+    "items": [
+      "Computer Vision",
+      "Deep Learning",
+      "NLP",
+      "Machine Learning"
+    ]
   }
 ]

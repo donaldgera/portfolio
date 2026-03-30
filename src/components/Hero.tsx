@@ -1,105 +1,40 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { Mail, FileText, ArrowDown } from "lucide-react";
 import { GithubIcon, LinkedinIcon, CodeforcesIcon } from "./Icons";
 import profile from "@/data/profile.json";
 import { FadeIn } from "./Animations";
-
-const roles = [
-  "An AI Engineer",
-  "A Researcher",
-  "An ML Builder",
-  "A CV Enthusiast",
-  "A Problem Solver",     
-];
+import { ParticleNetwork } from "./ParticleNetwork";
 
 export function Hero() {
-  const [currentRole, setCurrentRole] = useState(0);
-
-  const nextRole = useCallback(() => {
-    setCurrentRole((prev) => (prev + 1) % roles.length);
-  }, []);
-
-  useEffect(() => {
-    const interval = setInterval(nextRole, 2600);
-    return () => clearInterval(interval);
-  }, [nextRole]);
 
   return (
     <section
       className="min-h-[100dvh] flex flex-col justify-center relative overflow-hidden"
       style={{ paddingTop: "5rem", paddingBottom: "4rem" }}
     >
-      {/* Subtle dot grid background */}
-      <div
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle, var(--color-text-primary) 1px, transparent 1px)",
-          backgroundSize: "24px 24px",
-        }}
-      />
+      <ParticleNetwork />
 
-      {/* Subtle gradient glow */}
-      <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-[0.06] blur-[120px] pointer-events-none"
-        style={{ backgroundColor: "var(--color-accent)" }}
-      />
-
-      <div className="max-w-[1100px] mx-auto px-8 w-full relative z-10">
+      <div className="max-w-[1000px] mx-auto px-8 w-full relative z-10">
         {/* Greeting line */}
         <FadeIn>
           <p
-            className="text-[clamp(1.125rem,2.5vw,1.5rem)] font-medium mb-6 tracking-wide"
-            style={{ color: "var(--color-text-secondary)" }}
+            className="text-[clamp(1.25rem,2vw,1.75rem)] font-bold mb-4 tracking-wide uppercase"
+            style={{ color: "var(--color-text-primary)" }}
           >
-            Hey, I&apos;m
+            Hi! I&apos;m
           </p>
         </FadeIn>
 
-        {/* Big name */}
+        {/* Animated 3D Role highlight */}
         <FadeIn delay={0.1}>
-          <h1
-            className="text-[clamp(4rem,12vw,8rem)] font-black leading-[0.95] tracking-tighter mb-8"
-            style={{ color: "var(--color-text-primary)" }}
-          >
-            Donald
-            <br />
-            Gera<span style={{ color: "var(--color-accent)" }}>.</span>
-          </h1>
-        </FadeIn>
-
-        {/* Animated role highlight */}
-        <FadeIn delay={0.2}>
-          <div className="mb-8 flex items-center gap-3 flex-wrap">
-            <span
-              className="text-[clamp(1.125rem,2.5vw,1.5rem)] font-medium"
-              style={{ color: "var(--color-text-secondary)" }}
-            >
-              I&apos;m
-            </span>
-            <div className="relative h-[3.4rem] overflow-hidden">
-              <AnimatePresence mode="wait">
-                <motion.span
-                  key={currentRole}
-                  initial={{ y: 50, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  exit={{ y: -50, opacity: 0 }}
-                  transition={{
-                    duration: 0.4,
-                    ease: [0.25, 0.4, 0.25, 1],
-                  }}
-                  className="inline-flex items-center px-6 py-1.5 rounded-md text-[clamp(1.125rem,2.5vw,1.5rem)] font-bold tracking-wide whitespace-nowrap"
-                  style={{
-                    backgroundColor: "var(--color-accent)",
-                    color: "white",
-                  }}
-                >
-                  {roles[currentRole]}
-                </motion.span>
-              </AnimatePresence>
+          <div className="mb-10 relative cube-box max-w-[500px] md:max-w-[650px]" style={{ perspective: "1500px" }}>
+            <div className="w-full h-full relative preserve-3d animate-cube">
+              <div className="cube-face face-front bg-blue-600 text-white shadow-xl">DONALD</div>
+              <div className="cube-face face-top bg-blue-600 text-white shadow-xl">A RESEARCHER</div>
+              <div className="cube-face face-back bg-blue-600 text-white shadow-xl">AN AI STUDENT</div>
+              <div className="cube-face face-bottom bg-blue-600 text-white shadow-xl">AN INNOVATOR</div>
             </div>
           </div>
         </FadeIn>
@@ -107,7 +42,7 @@ export function Hero() {
         {/* Bio paragraph */}
         <FadeIn delay={0.35}>
           <p
-            className="text-[clamp(1.05rem,1.8vw,1.35rem)] leading-[1.8] max-w-[750px] mb-14"
+            className="text-[clamp(1rem,1.2vw,1.15rem)] leading-[1.8] max-w-[600px] mb-10"
             style={{ color: "var(--color-text-secondary)" }}
           >
             MSc student at the{" "}

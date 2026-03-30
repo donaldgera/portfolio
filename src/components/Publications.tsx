@@ -9,7 +9,7 @@ import { GithubIcon } from "./Icons";
 export function Publications() {
   return (
     <section id="publications">
-      <div className="max-w-[1100px] mx-auto px-8">
+      <div className="max-w-[1000px] mx-auto px-8">
         <FadeIn>
           <SectionHeading title="Publications" />
         </FadeIn>
@@ -36,7 +36,7 @@ export function Publications() {
               >
                 <div className="flex items-start justify-between gap-4 mb-4">
                   <h3
-                    className="text-[clamp(1.2rem,1.8vw,1.4rem)] font-semibold leading-snug"
+                    className="text-[clamp(1.1rem,1.4vw,1.25rem)] font-semibold leading-snug"
                     style={{ color: "var(--color-text-primary)" }}
                   >
                     {pub.title}
@@ -53,7 +53,7 @@ export function Publications() {
                 </div>
 
                 <p
-                  className="text-[clamp(1.05rem,1.4vw,1.2rem)] mb-2"
+                  className="text-[clamp(1rem,1.1vw,1.1rem)] mb-2"
                   style={{ color: "var(--color-text-secondary)" }}
                 >
                   {pub.authors.map((author, j) => (
@@ -69,14 +69,14 @@ export function Publications() {
                 </p>
 
                 <p
-                  className="text-[clamp(0.95rem,1vw,1.05rem)] italic mb-4"
+                  className="text-[clamp(0.9rem,1vw,1rem)] italic mb-4"
                   style={{ color: "var(--color-text-tertiary)" }}
                 >
                   {pub.venue} — {pub.location}
                 </p>
 
                 <p
-                  className="text-[clamp(1rem,1.2vw,1.15rem)] leading-[1.8] mb-6 max-w-[850px]"
+                  className="text-[clamp(0.95rem,1.1vw,1.05rem)] leading-[1.8] mb-6 max-w-[850px]"
                   style={{ color: "var(--color-text-secondary)" }}
                 >
                   {pub.description}

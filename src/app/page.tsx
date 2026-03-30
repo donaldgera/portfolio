@@ -18,8 +18,7 @@ export default function Home() {
       <Education />
       <Projects />
       <Publications />
-      <Skills />
-      <CV />
+
       <Books />
       <Contact />
     </>

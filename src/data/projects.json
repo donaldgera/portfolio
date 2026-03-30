@@ -2,8 +2,12 @@
   {
     "title": "Few-Shot Adaptation for Vision-Language Models",
     "summary": "Proposed GaCoCoOp with fixed visual attribute tokens for few-shot CLIP adaptation, improving novel class accuracy by +6.31% over CoOp and +1.93% over CoCoOp on Oxford Flowers dataset.",
-    "category": "Research",
-    "techStack": ["Python", "PyTorch", "Jupyter"],
+    "category": "University",
+    "techStack": [
+      "Python",
+      "PyTorch",
+      "Jupyter"
+    ],
     "links": {
       "github": "https://github.com/donaldgeraunitn/DeepLearningProject"
     }
@@ -11,8 +15,12 @@
   {
     "title": "Computer Vision Liquid Height Measurement",
     "summary": "Achieved ±3mm accuracy in non-contact liquid measurement using pixel-to-metric ratio calibration and OpenCV checkerboard pattern detection for real-world dimension extraction.",
-    "category": "Research",
-    "techStack": ["Python", "OpenCV", "NumPy"],
+    "category": "University",
+    "techStack": [
+      "Python",
+      "OpenCV",
+      "NumPy"
+    ],
     "links": {
       "github": "https://github.com/donaldgeraunitn/SIV-Glass-Height"
     }
@@ -21,7 +29,9 @@
     "title": "DeliverooAgents",
     "summary": "Built two autonomous agents for a grid-based parcel-delivery simulation game using an event-driven client and BDI architecture.",
     "category": "University",
-    "techStack": ["JavaScript"],
+    "techStack": [
+      "JavaScript"
+    ],
     "links": {
       "github": "https://github.com/donaldgeraunitn/DeliverooAgent"
     }
@@ -30,7 +40,12 @@
     "title": "Watermarking Decision Tree Ensembles",
     "summary": "Co-authored a novel approach to verifiable ownership of tree-ensemble models through trigger-set watermarking with minimal accuracy overhead. Published at EDBT 2025.",
     "category": "Research",
-    "techStack": ["Python", "scikit-learn", "Z3 SMT", "NumPy"],
+    "techStack": [
+      "Python",
+      "scikit-learn",
+      "Z3 SMT",
+      "NumPy"
+    ],
     "links": {
       "github": "https://github.com/LorenzoCazzaro/watermarking-decision-tree-ensembles",
       "paper": "https://openproceedings.org/2025/conf/edbt/paper-155.pdf"

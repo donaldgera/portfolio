@@ -7,7 +7,7 @@ import { SectionHeading } from "./SectionHeading";
 export function Experience() {
   return (
     <section id="experience">
-      <div className="max-w-[1100px] mx-auto px-8">
+      <div className="max-w-[1000px] mx-auto px-8">
         <FadeIn>
           <SectionHeading title="Experience" />
         </FadeIn>
@@ -16,7 +16,7 @@ export function Experience() {
           {experience.map((exp, i) => (
             <FadeInChild key={i}>
               <div
-                className="relative pl-8 border-l-[3px] transition-colors group"
+                className="relative pl-6 sm:pl-10 -ml-6 sm:-ml-10 border-l-[3px] transition-colors group"
                 style={{ borderColor: "var(--color-border)" }}
               >
                 {/* Timeline dot */}
@@ -30,13 +30,13 @@ export function Experience() {
 
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 mb-2">
                   <h3
-                    className="text-[clamp(1.2rem,1.8vw,1.5rem)] font-semibold"
+                    className="text-[clamp(1.1rem,1.4vw,1.25rem)] font-semibold"
                     style={{ color: "var(--color-text-primary)" }}
                   >
                     {exp.role}
                   </h3>
                   <span
-                    className="text-[clamp(0.95rem,1vw,1.1rem)] font-medium shrink-0"
+                    className="text-[clamp(0.85rem,1vw,0.95rem)] font-medium shrink-0"
                     style={{ color: "var(--color-text-tertiary)" }}
                   >
                     {exp.dates}
@@ -44,7 +44,7 @@ export function Experience() {
                 </div>
 
                 <p
-                  className="text-[clamp(1.05rem,1.4vw,1.25rem)] font-medium mb-4"
+                  className="text-[clamp(0.95rem,1.2vw,1.1rem)] font-medium mb-4"
                   style={{ color: "var(--color-accent)" }}
                 >
                   {exp.company}
@@ -54,7 +54,7 @@ export function Experience() {
                   {exp.description.map((item, j) => (
                     <li
                       key={j}
-                      className="text-[clamp(1rem,1.2vw,1.15rem)] leading-[1.8] pl-5 relative max-w-[850px]"
+                      className="text-[clamp(0.95rem,1.1vw,1.05rem)] leading-[1.8] pl-5 relative max-w-[850px]"
                       style={{ color: "var(--color-text-secondary)" }}
                     >
                       <span
@@ -70,7 +70,7 @@ export function Experience() {
                   {exp.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="text-[clamp(0.85rem,1vw,0.95rem)] font-medium px-3 py-1.5 rounded-md"
+                      className="text-[clamp(0.8rem,0.9vw,0.9rem)] font-medium px-3 py-1.5 rounded-md"
                       style={{
                         color: "var(--color-accent)",
                         backgroundColor: "var(--color-accent-light)",
