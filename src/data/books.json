@@ -1,32 +1,56 @@
 [
   {
-    "title": "Deep Learning",
-    "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
-    "link": "https://www.deeplearningbook.org/",
-    "cover": "https://covers.openlibrary.org/b/isbn/9780262035613-L.jpg"
+    "title": "On Photography",
+    "author": "Susan Sontag",
+    "link": "https://en.wikipedia.org/wiki/On_Photography",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780312420093-L.jpg"
   },
   {
-    "title": "Designing Machine Learning Systems",
-    "author": "Chip Huyen",
-    "link": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
-    "cover": "https://covers.openlibrary.org/b/isbn/9781098107963-L.jpg"
+    "title": "Invisible Cities",
+    "author": "Italo Calvino",
+    "link": "https://en.wikipedia.org/wiki/Invisible_Cities",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780156453806-L.jpg"
   },
   {
-    "title": "The Pragmatic Programmer",
-    "author": "David Thomas, Andrew Hunt",
-    "link": "https://pragprog.com/titles/tpp20/",
-    "cover": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
+    "title": "Fictions",
+    "author": "Jorge Luis Borges",
+    "link": "https://en.wikipedia.org/wiki/Ficciones",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780802130303-L.jpg"
   },
   {
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "link": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/",
-    "cover": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+    "title": "Laughable Loves",
+    "author": "Milan Kundera",
+    "link": "https://en.wikipedia.org/wiki/Laughable_Loves",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780060997038-L.jpg"
   },
   {
-    "title": "Hands-On Machine Learning",
-    "author": "Aurélien Géron",
-    "link": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
-    "cover": "https://covers.openlibrary.org/b/isbn/9781098125974-L.jpg"
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "link": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg"
+  },
+  {
+    "title": "The Name of the Rose",
+    "author": "Umberto Eco",
+    "link": "https://en.wikipedia.org/wiki/The_Name_of_the_Rose",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780156001311-L.jpg"
+  },
+  {
+    "title": "The Man Who Mistook His Wife for a Hat",
+    "author": "Oliver Sacks",
+    "link": "https://en.wikipedia.org/wiki/The_Man_Who_Mistook_His_Wife_for_a_Hat",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780684853949-L.jpg"
+  },
+  {
+    "title": "Camera Lucida",
+    "author": "Roland Barthes",
+    "link": "https://en.wikipedia.org/wiki/Camera_Lucida_(book)",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780809033400-L.jpg"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780060883287-L.jpg"
   }
 ]
