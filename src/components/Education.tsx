@@ -8,7 +8,7 @@ import { GraduationCap } from "lucide-react";
 export function Education() {
   return (
     <section id="education">
-      <div className="max-w-[1000px] mx-auto px-8">
+      <div className="max-w-[911px] mx-auto px-8">
         <FadeIn>
           <SectionHeading title="Education" />
         </FadeIn>
