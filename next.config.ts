@@ -16,8 +16,8 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "books.google.com",
-        pathname: "/books/content",
+        hostname: "www.carocci.it",
+        pathname: "/wp-content/uploads/**",
       },
     ],
   },
