@@ -39,7 +39,7 @@ export function Books() {
                 }}
               >
                 <div
-                  className="w-full aspect-[2/3] rounded-lg mb-3 overflow-hidden flex items-center justify-center relative"
+                  className="w-full aspect-[3/4] rounded-lg mb-3 overflow-hidden flex items-center justify-center relative"
                   style={{ backgroundColor: "var(--color-surface-hover)" }}
                 >
                   {book.cover ? (
@@ -48,7 +48,7 @@ export function Books() {
                       alt={`${book.title} cover`}
                       fill
                       sizes="200px"
-                      className="object-contain rounded-lg p-1"
+                      className="object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
                     />
                   ) : (
                     <BookOpen size={32} style={{ color: "var(--color-text-tertiary)" }} />
