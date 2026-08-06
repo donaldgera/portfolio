@@ -9,7 +9,7 @@ export function SectionHeading({ title, subtitle }: Props) {
   return (
     <div className="mb-12">
       <h2
-        className="text-[clamp(1.5rem,3vw,2.5rem)] font-black tracking-tighter mb-4 uppercase leading-[1.1]"
+        className="text-[clamp(1.5rem,3vw,2.5rem)] font-extrabold tracking-[-0.025em] mb-4 uppercase leading-[1.1]"
         style={{ color: "var(--color-text-primary)" }}
       >
         {title}

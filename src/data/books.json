@@ -24,33 +24,21 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780060997038-L.jpg"
   },
   {
-    "title": "Thinking, Fast and Slow",
-    "author": "Daniel Kahneman",
-    "link": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow",
-    "cover": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg"
+    "title": "Flatland",
+    "author": "E. A. Abbott",
+    "link": "https://en.wikipedia.org/wiki/Flatland",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780486272634-L.jpg"
   },
   {
-    "title": "The Name of the Rose",
-    "author": "Umberto Eco",
-    "link": "https://en.wikipedia.org/wiki/The_Name_of_the_Rose",
-    "cover": "https://covers.openlibrary.org/b/isbn/9780156001311-L.jpg"
+    "title": "Manalive",
+    "author": "G. K. Chesterton",
+    "link": "https://en.wikipedia.org/wiki/Manalive",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780486414058-L.jpg"
   },
   {
-    "title": "The Man Who Mistook His Wife for a Hat",
-    "author": "Oliver Sacks",
-    "link": "https://en.wikipedia.org/wiki/The_Man_Who_Mistook_His_Wife_for_a_Hat",
-    "cover": "https://covers.openlibrary.org/b/isbn/9780684853949-L.jpg"
-  },
-  {
-    "title": "Camera Lucida",
-    "author": "Roland Barthes",
-    "link": "https://en.wikipedia.org/wiki/Camera_Lucida_(book)",
-    "cover": "https://covers.openlibrary.org/b/isbn/9780809033400-L.jpg"
-  },
-  {
-    "title": "One Hundred Years of Solitude",
-    "author": "Gabriel García Márquez",
-    "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude",
-    "cover": "https://covers.openlibrary.org/b/isbn/9780060883287-L.jpg"
+    "title": "Oedipus Rex / Edipo Re",
+    "author": "Sophocles",
+    "link": "https://en.wikipedia.org/wiki/Oedipus_Rex",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780486268774-L.jpg"
   }
 ]

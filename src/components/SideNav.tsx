@@ -58,7 +58,7 @@ export function SideNav() {
     <nav className="fixed left-0 top-0 bottom-0 w-[60px] md:w-[80px] flex flex-col justify-between items-center py-8 z-50 border-r"
          style={{ borderColor: "var(--color-border)", backgroundColor: "color-mix(in srgb, var(--color-bg) 80%, transparent)", backdropFilter: "blur(12px)" }}>
       <div className="flex flex-col items-center gap-6">
-        <a href="#" className="text-xl font-bold tracking-tight" style={{ color: "var(--color-text-primary)" }}>
+        <a href="#" className="font-display text-xl font-bold tracking-tight" style={{ color: "var(--color-text-primary)" }}>
           DG
         </a>
       </div>

@@ -57,10 +57,6 @@ export function Hero() {
             <span style={{ color: "var(--color-text-primary)", fontWeight: 600 }}>
               AIRLab
             </span>
-            . Published at{" "}
-            <span style={{ color: "var(--color-accent)", fontWeight: 600 }}>
-              EDBT 2025
-            </span>
             .
           </p>
         </FadeIn>

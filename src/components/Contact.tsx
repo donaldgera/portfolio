@@ -3,50 +3,22 @@
 import profile from "@/data/profile.json";
 import { FadeIn } from "./Animations";
 import { SectionHeading } from "./SectionHeading";
-import { Mail, MapPin } from "lucide-react";
-import { GithubIcon, LinkedinIcon, CodeforcesIcon } from "./Icons";
+import { MapPin } from "lucide-react";
 
 const contactLinks = [
   {
-    icon: "mail" as const,
+    mark: "@",
     label: "Email",
     value: profile.email,
     href: `mailto:${profile.email}`,
   },
   {
-    icon: "github" as const,
-    label: "GitHub",
-    value: "donaldgera",
-    href: profile.github,
-  },
-  {
-    icon: "linkedin" as const,
+    mark: "in",
     label: "LinkedIn",
     value: "donald-gera",
     href: profile.linkedin,
   },
-  {
-    icon: "codeforces" as const,
-    label: "Codeforces",
-    value: "donaldgera",
-    href: profile.codeforces,
-  },
 ];
-
-function ContactIcon({ type, size = 18 }: { type: string; size?: number }) {
-  switch (type) {
-    case "mail":
-      return <Mail size={size} />;
-    case "github":
-      return <GithubIcon size={size} />;
-    case "linkedin":
-      return <LinkedinIcon size={size} />;
-    case "codeforces":
-      return <CodeforcesIcon size={size} />;
-    default:
-      return <Mail size={size} />;
-  }
-}
 
 export function Contact() {
   return (
@@ -74,7 +46,7 @@ export function Contact() {
                 href={link.href}
                 target={link.href.startsWith("mailto") ? undefined : "_blank"}
                 rel="noopener noreferrer"
-                className="flex items-center gap-5 p-6 rounded-2xl border-[1.5px] transition-all duration-300"
+                className="contact-card flex items-center gap-5 p-6 rounded-2xl border-[1.5px] transition-all duration-300"
                 style={{
                   backgroundColor: "var(--color-surface)",
                   borderColor: "var(--color-border)",
@@ -89,10 +61,14 @@ export function Contact() {
                 }}
               >
                 <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
-                  style={{ backgroundColor: "var(--color-accent-light)", color: "var(--color-accent)" }}
+                  className="contact-mark w-12 h-12 rounded-[4px] border flex items-center justify-center shrink-0 text-[1.15rem] font-semibold lowercase"
+                  style={{
+                    borderColor: "var(--color-border)",
+                    color: "var(--color-text-secondary)",
+                  }}
+                  aria-hidden="true"
                 >
-                  <ContactIcon type={link.icon} size={20} />
+                  {link.mark}
                 </div>
                 <div>
                   <p

@@ -2,6 +2,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme inline {
+  --font-sans: var(--font-source-sans);
+  --font-serif: var(--font-newsreader);
+}
+
 :root {
   /* Warm minimalist palette */
   --color-bg: #FAFAF9;
@@ -41,11 +46,38 @@ html {
 body {
   background-color: var(--color-bg);
   color: var(--color-text-primary);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: var(--font-source-sans), "Segoe UI", sans-serif;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-newsreader), Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+.contact-mark {
+  font-family: var(--font-newsreader), Georgia, serif;
+  font-style: italic;
+  transform: rotate(-2deg);
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-card:nth-child(even) .contact-mark {
+  transform: rotate(2deg);
+}
+
+.contact-card:hover .contact-mark,
+.contact-card:focus-visible .contact-mark {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  transform: rotate(0deg);
 }
 
 ::selection {
@@ -132,7 +164,9 @@ a {
   align-items: center;
   justify-content: center;
   padding: 0;
-  font-weight: 900;
+  font-family: var(--font-newsreader), Georgia, serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
   letter-spacing: 0.02em;
   font-size: clamp(1.75rem, 4.5vw, 3.25rem);
 }
